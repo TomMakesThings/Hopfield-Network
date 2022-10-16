@@ -1,4 +1,12 @@
-# Hopfield Network
+<div align="center">
+  <h1>Pattern Recognition Hopfield Network</h1>
+  <p><b>Code by <a href="https://github.com/TomMakesThings">TomMakesThings</a></b></p>
+  <p><b><sub>December 2022</sub></b></p>
+</div>
+
+---
+
+# Hopfield Networks
 A Hopfield network is a type of neural network commonly used for pattern recognition. In <a href="https://github.com/TomMakesThings/Hopfield-Network/blob/main/Hopfield_network.ipynb">this notebook</a>, the Hopfield net is evaluated based on its capacity to recall patterns using either the Hebbian or Storkey learning rules.
 
 <div align="center">
