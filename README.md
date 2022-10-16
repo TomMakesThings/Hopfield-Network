@@ -24,6 +24,6 @@ $E = -\frac{1}{2} \sum_{ij} w_{ij}v_{i}v_{j}$
 
 The state $s$ of all neurons are then repeatedly updated until the network converges to a stable state. This is determined by the network's energy not changing for $n$ iterations, where in this case $n = 500$. By default, neuron state updates are set to be asynchronous, in which neurons are randomly selected to be updated one at a time.
 
-$\text{if } \sum_{j = 1}^{N} w_{ij}v_{j} - \theta_{i} \geq 0 $, $ s_{i} = 1$
+$\text{if } \sum_{j = 1}^{N} w_{ij}v_{j} - \theta_{i} \geq 0 \text{, } s_{i} = 1$
 
 $\text{else } s_{i} = -1$
